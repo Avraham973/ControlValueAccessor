@@ -1,0 +1,8 @@
+<ng-container class="form-control">
+  <label>Day</label>
+  <input type="number" [formControl]="dayControl" (blur)="onTouched()" />
+  <label>Month</label>
+  <input type="number" [formControl]="monthControl" (blur)="onTouched()" />
+  <label>Year</label>
+  <input type="number" [formControl]="yearControl" (blur)="onTouched()" />
+</ng-container>
